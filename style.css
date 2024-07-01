@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+display: flex;
+height: 50px;
+background-color: brown;
+justify-content: space-between;
+width: 100vw;
+}
+
+.navleft{
+    display: flex;
+    align-items: center;
+}
+
+.menus{
+    display: flex;
+    font-size: large;
+    color: rgb(222, 200, 35);
+}
+
+li{
+    margin: 2%;
+    text-decoration: none;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.navright{
+display: flex;
+align-items: center;
+margin: 10px;
+}
+
+#tbSearch{
+ width: 120px;
+ margin: 10px;   
+}
+
+#btnSearch{
+    width: 50px;
+}
